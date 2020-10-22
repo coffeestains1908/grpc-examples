@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+service TestService {
+  rpc SayHi (HiRequest) returns (HiReply) {}
+}
+
+message HiRequest {
+  string name = 1;
+  bytes img = 2;
+}
+
+message HiReply {
+  string message = 1;
+}

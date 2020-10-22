@@ -1,0 +1,11 @@
+{
+  "name": "grpc-test",
+  "version": "0.1.0",
+  "scripts": {
+    "serve": "node basic/server.js"
+  },
+  "dependencies": {
+    "@grpc/proto-loader": "^0.5.5",
+    "grpc": "^1.11.0"
+  }
+}
